@@ -24,7 +24,7 @@ public class ProductsScreenSteps {
 	}
 
 	@Entao("^deve estar na tela do produto desejado$")
-	public void deve_estar_na_tela_do_produto_desejado() {
+	public void deve_estar_na_tela_do_produto_desejado() throws InterruptedException {
 		products.checkProduct();
 	}
 

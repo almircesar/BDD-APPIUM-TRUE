@@ -19,8 +19,7 @@ public class TestRunner {
 	public static void writeExtentReport() {
 		Reporter.loadXMLConfig(new File("src/test/java/configs/extent-config.xml"));
 		Reporter.setSystemInfo("OS", "Windows10");
-
-		Reporter.setSystemInfo("Tester Name", "Celso Eron");
+		Reporter.setSystemInfo("Tester Name", "Almir");
 
 	}
 }

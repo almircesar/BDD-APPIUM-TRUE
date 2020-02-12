@@ -58,7 +58,7 @@ public class RegisterScreenSteps {
 		Assert.assertFalse(register.btnRegister().isEnabled());
 	}
 
-	String username = "Almir";
+	String username = "Alanar2";
 	String email = "almir_cesar@hotmail.com.br";
 	String password = "Senha14Aa";
 	String confirmPassword = "Senha14Aa";

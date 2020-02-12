@@ -66,7 +66,8 @@ public class ProductsScreen {
 				.click();
 	}
 
-	public void checkProduct() {
+	public void checkProduct() throws InterruptedException {
+		Thread.sleep(2000);
 		Assert.assertTrue(checkBose.getText().contains("BOSE"));
 	}
 
